@@ -207,7 +207,7 @@ namespace CalculadoraWindowsJosh
 
         private void button14_Click(object sender, EventArgs e)
         {
-            btnResultado1.Text = Math.Sqrt(double.Parse(btnResultado1.Text)*2).ToString();
+            btnResultado1.Text = Math.Sqrt(double.Parse(btnResultado1.Text)).ToString();
             vaiMudar = true;
             
         }
