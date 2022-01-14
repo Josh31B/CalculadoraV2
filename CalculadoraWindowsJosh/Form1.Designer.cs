@@ -559,12 +559,14 @@
             this.btnExcluir.FlatAppearance.BorderSize = 0;
             this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluir.Font = new System.Drawing.Font("Segoe UI Semilight", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcluir.Image = global::CalculadoraWindowsJosh.Properties.Resources.backspace__2_;
-            this.btnExcluir.Location = new System.Drawing.Point(317, 2);
+            //this.btnExcluir.Image = global::CalculadoraWindowsJosh.Properties.Resources.backspace__2_;
+            this.btnExcluir.Location = new System.Drawing.Point(212, 2);
+            
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(2);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(103, 63);
-            this.btnExcluir.TabIndex = 3;
+            this.btnExcluir.TabIndex = 2;
+            this.btnLimpar.Text = "D";
             this.btnExcluir.UseVisualStyleBackColor = false;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
